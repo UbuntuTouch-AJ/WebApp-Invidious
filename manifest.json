@@ -1,0 +1,17 @@
+{
+    "name": "invidious",
+    "description": "invidious",
+
+    "title": "invidious",
+    "architecture": "@CLICK_ARCH@",
+    "hooks": {
+        "invidious": {
+            "apparmor": "invidious.apparmor",
+            "desktop":  "invidious.desktop",
+            "urls": "invidious.url-dispatcher"
+        }
+    },
+    "version": "1.0.0",
+    "maintainer": "Andreas Johannsen <aj-ubuntutouch@posteo.de>",
+    "framework" : "ubuntu-sdk-16.04.4"
+}

@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=Invidious
+Comment=Morph based invidious.sp-codes.de/feed/popular.de Webapp
+Exec=qmlscene %u app/Main.qml --scaling --software
+Terminal=false
+Type=Application
+Icon=icon.png
+X-Ubuntu-Touch=true
+
+X-Ubuntu-Splash-Color=#dbdbdb
+X-Ubuntu-Splash-Image=icon-splash.png
+
+Name[de_DE]=Invidious
